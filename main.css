@@ -1,0 +1,52 @@
+td{
+    padding: 1.5rem;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1.5rem;
+    border: .7rem solid hsl(226, 43%, 10%);
+}
+table{
+    padding-left: 20%;
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+    Font-size: 18px;
+    color: white;
+}
+
+button{
+    outline: none;
+    background-color: hsl(235, 46%, 20%);
+    color: hsl(235, 45%, 61%);
+    border: 0;
+    font-size: 1.8rem;
+}
+
+button:hover{
+    color: hsl(236, 100%, 87%);
+}
+
+div{
+    text-align: left;
+}
+
+
+
+
+img{
+    align-content: flex-end;
+    width: 50%;
+    height: 50%;
+}
+
+a{
+    font-size:  2rem;
+    text-align: left;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
