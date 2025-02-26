@@ -18,176 +18,153 @@
 <body>
 
 
-<!--tutaj jest cała konstrukcja która prawie działa tak jak powinna TODO: w miarę możliwości naprawić -->
+<!--tutaj jest cała  konstrukcja która prawie działa tak jak powinna TODO: w miarę możliwości naprawić -->
   
   <!--raport osoby razem z przyciskami-->
-  <table>
-    
-    <tr>
-    
-      <th rowspan="2" style="border:0 ; padding: 0 ; background-color: hsl(226, 43%, 10%);">
-      
-        <table>
-      
-        <tr >
-      
-          
-          <td style="height: 15rem;; background-color:hsl(246, 80%, 60%); border-color: hsl(246, 80%, 60%); text-align: left; float: left;">
-            <img src="./images/image-jeremy.png" style="width: 60%; height: 40%;">
-            <p style="color: hsl(236, 100%, 87%);">Report for</p>
+ <div>
+ <div class="main">     
+  <div class="jeremy"> 
+      <div class="report"> 
+                <img src="./images/image-jeremy.png">
+            <p>Report for</p>
             <h1>Jeremy Robson</h1>
-          </td>
-      
-        </tr>
-      
-      </th>
-      <div>
-        <td style="border-color: hsl(235, 46%, 20%); text-align: left;">
-          <button id="Daily">Daily</button> <br><br>
+      </div>
+      <div class="reportbtn">
+           <button id="Daily">Daily</button> <br><br>
           <button id="Weekly">Weekly</button><br><br>
           <button id="Monthly">Monthly</button>
-        </td>
+      
       </div>
-    </tr>
-  
-  </table>
+  </div> 
 
 
 
    
-<div>
 
+<div class="activities">
 <!--górne 3 statystyki-->
 
-<div class="toprow">
 
-  <td>
+
+  <div>
     <!--Work-->
-    <table>
-      <tr style="background-color: hsl(15, 100%, 70%);"><img src="./images/icon-work.svg"></tr>
-      <tr>
-  <div class="Work">
+    <div class="background-img" id="imgW">
+      <img  src="./images/icon-work.svg">
+
+    </div>
+      
+  <div class="Work time blocks">
     Work<button>...</button>
     <br><br>
     <a id="DaneWork">
      32hrs <!-- weekly -->
       </a> 
-       <p id="PTimeWork" style="color: hsl(236, 100%, 87%);">Previous - 36hrs</p>
-        </tr>
+       <p id="PTimeWork">Previous - 36hrs</p>
+        
   </div>
-</table>
 
-  </td>
-  
-  <td>
+  </div><div>
     <!--Play-->
-    <table>
-      <tr style="background-color: hsl(195, 74%, 62%);"><img src="./images/icon-play.svg"></tr>
-      <tr>
-    <div class="Play">
+    <div class="background-img" id="imgP">
+
+      <img src="./images/icon-play.svg">
+    </div>
+     
+    <div class="Play time blocks">
       Play<button>...</button>
       <br><br>
       <a id="DanePlay">
       10hrs <!-- weekly -->
        </a>
-        <p id="PTimePlay" style="color: hsl(236, 100%, 87%);">Previous - 8hrs</p>
+        <p id="PTimePlay">Previous - 8hrs</p>
 
-      </tr>
+    
     </div>
-  </table>
-  </td>
-  <td>
+  </div> <div>
     <!--Study-->
-    <table>
-      <tr style="background-color: hsl(348, 100%, 68%);"><img src="./images/icon-study.svg"></tr>
-      <tr>
-  <div class="Study">
+    <div class="background-img" id="imgS">
+
+      <img src="./images/icon-study.svg">
+    </div>
+    
+  <div class="Study time blocks">
     Study<button>...</button>
     <br><br>
     <a id="DaneStudy">
     4hrs <!-- weekly -->
       </a>
-      <p id="PTimeStudy" style="color: hsl(236, 100%, 87%);">Previous - 7hrs</p>
+      <p id="PTimeStudy">Previous - 7hrs</p>
 
-    </tr>
   </div>
-    </table>
-  </td>
-
 </div>
 
-  </tr>
-  <tr>
+
+
 
 <!--dolne 3 statystyki-->
 
-  <div class="bottomrow">
-    <td>
+
+   
+    <div>
       <!--Exercise-->
-      <table>
-        <tr style="background-color: hsl(145, 58%, 55%);"><img src="./images/icon-exercise.svg"></tr>
-        <tr>
-      <div class="Exercise">
+      <div class="background-img" id="imgE">
+
+        <img src="./images/icon-exercise.svg">
+      </div>
+      <div class="Exercise time blocks">
         Exercise<button>...</button>
         <br><br>
         <a id="DaneExercise">
          4hrs <!-- weekly -->
      </a>
-      <p id="PTimeExercise" style="color: hsl(236, 100%, 87%);">Previous - 5hrs</p>
+      <p id="PTimeExercise">Previous - 5hrs</p>
 
-      </tr>
+     
       </div>
-        </table>
-    </td>
-    <td>
+      
+    </div><div>
       <!--Social-->
-      <table>
-        <tr style="background-color: hsl(264, 64%, 52%);"><img src="./images/icon-social.svg"></tr>
-        <tr>
-      <div class="Social">
+      <div class="background-img" id="imgSo">
+
+        <img src="./images/icon-social.svg">
+      </div>
+      <div class="Social time blocks">
         Social<button>...</button>
         <br><br>
         <a id="DaneSocial">
        5hrs <!-- weekly -->
        </a>
-        <p id="PTimeSocial" style="color: hsl(236, 100%, 87%);">Previous - 10hrs</p>
+        <p id="PTimeSocial">Previous - 10hrs</p>
 
-      </tr>
+     
       </div>
-      </table>
-    </td>
-    <td>
+     
+    </div><div>
       <!--Self care-->
-      <table>
-        <tr style="background-color: hsl(43, 84%, 65%);"><img src="./images/icon-self-care.svg"></tr>
-        <tr>
-      <div class="Self-Care">
+      <div class="background-img" id="imgSe">
+
+        <img src="./images/icon-self-care.svg">
+      </div>
+      <div class="Self-Care time blocks">
         Self Care <button>...</button>
         <br><br>
         <a id="DaneSelf-Care">
         2hrs <!-- weekly -->
         </a>
-        <p id="PTimeSelf-Care" style="color: hsl(236, 100%, 87%);">Previous - 2hrs</p>
+        <p id="PTimeSelf-Care">Previous - 2hrs</p>
 
-      </tr>
+     
       </div>
-      </table>
-    </td>
-  </div>
+    </div> 
 
-</div> 
-
-</table>
 
 </div>
-</tr>
+</div>
 
+</div>
 
 <!--Mentor-->
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/EllNex">EllNex</a>.
-  </div>
+
 
 
 
